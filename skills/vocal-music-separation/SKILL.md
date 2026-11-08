@@ -23,10 +23,11 @@ About 30 s of processing per minute of audio on a 4-core machine.
 ## Workflow
 
 1. **Run the pipeline** on every file the user gave (multiple files in one call are fine).
+   `<SKILL_DIR>` is the directory containing this SKILL.md (in this repo: `skills/vocal-music-separation`).
    Output into the scratchpad (or a directory the user names):
 
    ```bash
-   bash skills/vocal-music-separation/scripts/run.sh "<OUT_DIR>" "/path/to/song1.mp3" "/path/to/song2.mp3"
+   bash "<SKILL_DIR>/scripts/run.sh" "<OUT_DIR>" "/path/to/song1.mp3" "/path/to/song2.mp3"
    ```
 
    The script installs `torch onnxruntime soundfile numpy` from PyPI if missing, downloads and
@@ -49,11 +50,11 @@ About 30 s of processing per minute of audio on a 4-core machine.
 
 ```bash
 # One file
-bash skills/vocal-music-separation/scripts/run.sh /tmp/out "song.mp3"
+bash "<SKILL_DIR>/scripts/run.sh" /tmp/out "song.mp3"
 # -> /tmp/out/song/vocals.mp3, /tmp/out/song/music.mp3, /tmp/out/song/stems/*.wav
 
 # Only the Python step, on an already 44.1 kHz stereo WAV
-python3 -I skills/vocal-music-separation/scripts/separate.py ~/.cache/vocal-music-separation/htdemucs.onnx in.wav out_stems
+python3 -I "<SKILL_DIR>/scripts/separate.py" ~/.cache/vocal-music-separation/htdemucs.onnx in.wav out_stems
 ```
 
 ## Implementation Notes
