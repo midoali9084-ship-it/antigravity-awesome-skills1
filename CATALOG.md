@@ -2,9 +2,9 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 954
+Total skills: 965
 
-## architecture (61)
+## architecture (62)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -55,6 +55,7 @@ Total skills: 954
 | `projection-patterns` | Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in ... | projection | projection, read, models, projections, event, streams, implementing, cqrs, sides, building, materialized, views |
 | `prompt-engineering` | Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies,... | prompt, engineering | prompt, engineering, optimization, techniques, user, wants, improve, prompts, learn, prompting, debug, agent |
 | `radix-ui-design-system` | Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for productio... | radix, ui | radix, ui, accessible, primitives, headless, component, customization, theming, compound, grade, libraries |
+| `replica-brand` | Names and rebrands an app clone so it is the user's own: name candidates with the trademark, domain, store and handle checks to run, a new palette checked fo... | replica, brand | replica, brand, names, rebrands, app, clone, so, user, own, name, candidates, trademark |
 | `saga-orchestration` | Implement saga patterns for distributed transactions and cross-aggregate workflows. Use when coordinating multi-step business processes, handling compensatin... | saga | saga, orchestration, distributed, transactions, cross, aggregate, coordinating, multi, step, business, processes, handling |
 | `salesforce-development` | Expert patterns for Salesforce platform development including Lightning Web Components (LWC), Apex triggers and classes, REST/Bulk APIs, Connected Apps, and ... | salesforce | salesforce, development, platform, including, lightning, web, components, lwc, apex, triggers, classes, rest |
 | `skill-developer` | Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patt... | skill | skill, developer, claude, code, skills, following, anthropic, creating, new, modifying, rules, json |
@@ -70,7 +71,7 @@ Total skills: 954
 | `workflow-patterns` |  |  |  |
 | `zapier-make-patterns` | No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code.... | zapier, make | zapier, make, no, code, automation, democratizes, building, formerly, integromat, let, non, developers |
 
-## business (44)
+## business (45)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -96,6 +97,7 @@ Total skills: 954
 | `notion-template-business` | Expert in building and selling Notion templates as a business - not just making templates, but building a sustainable digital product business. Covers templa... | notion, business | notion, business, building, selling, just, making, sustainable, digital, product, covers, pricing, marketplaces |
 | `pricing-strategy` | Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives. | pricing | pricing, packaging, monetization, value, customer, willingness, pay, growth, objectives |
 | `programmatic-seo` |  | programmatic, seo | programmatic, seo |
+| `replica-launch` | Writes the launch for an app clone: the landing page built on the positioning angle, pricing set against the original's public pricing and its users' complai... | replica, launch | replica, launch, writes, app, clone, landing, page, built, positioning, angle, pricing, set |
 | `sales-automator` |  | sales, automator | sales, automator |
 | `screenshots` | Generate marketing screenshots of your app using Playwright. Use when the user wants to create screenshots for Product Hunt, social media, landing pages, or ... | screenshots | screenshots, generate, marketing, app, playwright, user, wants, product, hunt, social, media, landing |
 | `scroll-experience` | Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Lik... | scroll, experience | scroll, experience, building, immersive, driven, experiences, parallax, storytelling, animations, interactive, narratives, cinematic |
@@ -119,7 +121,7 @@ Total skills: 954
 | `startup-metrics-framework` |  | startup, metrics, framework | startup, metrics, framework |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (150)
+## data-ai (152)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -244,6 +246,8 @@ Total skills: 954
 | `rag-engineer` | Expert in building Retrieval-Augmented Generation systems. Masters embedding models, vector databases, chunking strategies, and retrieval optimization for LL... | rag | rag, engineer, building, retrieval, augmented, generation, masters, embedding, models, vector, databases, chunking |
 | `rag-implementation` | RAG (Retrieval-Augmented Generation) implementation workflow covering embedding selection, vector database setup, chunking strategies, and retrieval optimiza... | rag | rag, retrieval, augmented, generation, covering, embedding, selection, vector, database, setup, chunking, optimization |
 | `react-ui-patterns` | Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states. | react, ui | react, ui, loading, states, error, handling, data, fetching, building, components, async, managing |
+| `replica-architect` | Plans the stack, database schema and API for an app clone, from the recon map replica-recon wrote. Picks boring, managed tech, turns the inferred data model ... | replica | replica, architect, plans, stack, database, schema, api, app, clone, recon, map, wrote |
+| `replica-recon` | Reverse-engineers any app into a recon map: screen inventory, user flows, component list, inferred data model and a feature matrix, from public pages, screen... | replica, recon | replica, recon, reverse, engineers, any, app, map, screen, inventory, user, flows, component |
 | `segment-cdp` | Expert patterns for Segment Customer Data Platform including Analytics.js, server-side tracking, tracking plans with Protocols, identity resolution, destinat... | segment, cdp | segment, cdp, customer, data, platform, including, analytics, js, server, side, tracking, plans |
 | `sendgrid-automation` | Automate SendGrid email operations including sending emails, managing contacts/lists, sender identities, templates, and analytics via Rube MCP (Composio). Al... | sendgrid | sendgrid, automation, automate, email, operations, including, sending, emails, managing, contacts, lists, sender |
 | `senior-architect` | Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, F... | senior | senior, architect, software, architecture, skill, designing, scalable, maintainable, reactjs, nextjs, nodejs, express |
@@ -274,7 +278,7 @@ Total skills: 954
 | `xlsx-official` | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work ... | xlsx, official | xlsx, official, spreadsheet, creation, editing, analysis, formulas, formatting, data, visualization, claude, work |
 | `youtube-automation` | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools firs... | youtube | youtube, automation, automate, tasks, via, rube, mcp, composio, upload, videos, playlists, search |
 
-## development (150)
+## development (152)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -406,6 +410,8 @@ Total skills: 954
 | `react-patterns` | Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices. | react | react, principles, hooks, composition, performance, typescript |
 | `react-state-management` | Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosin... | react, state | react, state, redux, toolkit, zustand, jotai, query, setting, up, global, managing, server |
 | `remotion-best-practices` | Best practices for Remotion - Video creation in React | remotion, video, react, animation, composition | remotion, video, react, animation, composition, creation |
+| `replica-diff` | Compares an app clone against the original: a feature parity score from the feature matrix (weighted by must, should, could) with the missing list in build o... | replica, diff | replica, diff, compares, app, clone, against, original, feature, parity, score, matrix, weighted |
+| `replica-test` | Clicks through every flow of an app clone and tests it for bugs: a test plan generated from the recon flows with happy paths and edge cases, Playwright end-t... | replica | replica, test, clicks, through, every, flow, app, clone, tests, bugs, plan, generated |
 | `ruby-pro` |  | ruby | ruby, pro |
 | `rust-async-patterns` | Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing conc... | rust, async | rust, async, programming, tokio, traits, error, handling, concurrent, building, applications, implementing, debugging |
 | `rust-pro` |  | rust | rust, pro |
@@ -429,7 +435,7 @@ Total skills: 954
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (242)
+## general (245)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -632,6 +638,9 @@ Total skills: 954
 | `red-team-tools` | This skill should be used when the user asks to "follow red team methodology", "perform bug bounty hunting", "automate reconnaissance", "hunt for XSS vulnera... | red, team | red, team, skill, should, used, user, asks, follow, methodology, perform, bug, bounty |
 | `reference-builder` |  | reference, builder | reference, builder |
 | `referral-program` | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referr... | referral, program | referral, program, user, wants, optimize, analyze, affiliate, word, mouth, mentions, ambassador |
+| `replica-build` | Rebuilds an app screen by screen from the recon map: app shell first, then the core flow as a vertical slice, then every screen with all its states, ticking ... | replica, build | replica, build, rebuilds, app, screen, recon, map, shell, first, then, core, flow |
+| `replica-design` | Rebuilds an app's design system for a clone: colour roles, type scale, spacing, radius, shadows and every component with its states, as design tokens plus co... | replica | replica, rebuilds, app, clone, colour, roles, type, scale, spacing, radius, shadows, every |
+| `replica-entrepreneur` | Researches the app being cloned and reads what its real users say in public reviews (App Store, Google Play, G2, Capterra, Trustpilot, Reddit, Hacker News, i... | replica, entrepreneur | replica, entrepreneur, researches, app, being, cloned, reads, what, real, users, say, public |
 | `requesting-code-review` | Use when completing tasks, implementing major features, or before merging to verify work meets requirements | requesting, code | requesting, code, review, completing, tasks, implementing, major, features, before, merging, verify, work |
 | `returns-reverse-logistics` |  | returns, reverse, logistics | returns, reverse, logistics |
 | `reverse-engineer` |  | reverse | reverse, engineer |
@@ -676,7 +685,7 @@ Total skills: 954
 | `x-article-publisher-skill` | Publish articles to X/Twitter | x, article, publisher, skill | x, article, publisher, skill, publish, articles, twitter |
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | [video, summarization, transcription, youtube, content-analysis] | [video, summarization, transcription, youtube, content-analysis], summarizer, extract, transcripts, videos, generate, detailed, summaries |
 
-## infrastructure (91)
+## infrastructure (92)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -759,6 +768,7 @@ Total skills: 954
 | `pipedrive-automation` | Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search... | pipedrive | pipedrive, automation, automate, crm, operations, including, deals, contacts, organizations, activities, notes, pipeline |
 | `prometheus-configuration` | Set up Prometheus for comprehensive metric collection, storage, and monitoring of infrastructure and applications. Use when implementing metrics collection, ... | prometheus, configuration | prometheus, configuration, set, up, metric, collection, storage, monitoring, infrastructure, applications, implementing, metrics |
 | `protocol-reverse-engineering` | Master network protocol reverse engineering including packet analysis, protocol dissection, and custom protocol documentation. Use when analyzing network tra... | protocol, reverse, engineering | protocol, reverse, engineering, network, including, packet, analysis, dissection, custom, documentation, analyzing, traffic |
+| `replica-deploy` | Ships an app clone live on the user's own domain: a preflight gate (tests green, parity must-haves done, rebrand sweep clean, listing linted, legal pages up)... | replica, deploy | replica, deploy, ships, app, clone, live, user, own, domain, preflight, gate, tests |
 | `server-management` | Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands. | server | server, principles, decision, making, process, monitoring, scaling, decisions, teaches, thinking, commands |
 | `service-mesh-observability` | Implement comprehensive observability for service meshes including distributed tracing, metrics, and visualization. Use when setting up mesh monitoring, debu... | service, mesh, observability | service, mesh, observability, meshes, including, distributed, tracing, metrics, visualization, setting, up, monitoring |
 | `slo-implementation` | Define and implement Service Level Indicators (SLIs) and Service Level Objectives (SLOs) with error budgets and alerting. Use when establishing reliability t... | slo | slo, define, level, indicators, slis, objectives, slos, error, budgets, alerting, establishing, reliability |
@@ -772,7 +782,7 @@ Total skills: 954
 | `wireshark-analysis` | This skill should be used when the user asks to "analyze network traffic with Wireshark", "capture packets for troubleshooting", "filter PCAP files", "follow... | wireshark | wireshark, analysis, skill, should, used, user, asks, analyze, network, traffic, capture, packets |
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 
-## security (100)
+## security (101)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -841,6 +851,7 @@ Total skills: 954
 | `popup-cro` | Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust. | popup, cro | popup, cro, optimize, popups, modals, overlays, slide, ins, banners, increase, conversions, without |
 | `postmortem-writing` | Write effective blameless postmortems with root cause analysis, timelines, and action items. Use when conducting incident reviews, writing postmortem documen... | postmortem, writing | postmortem, writing, write, effective, blameless, postmortems, root, cause, analysis, timelines, action, items |
 | `red-team-tactics` | Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting. | red, team, tactics | red, team, tactics, principles, mitre, att, ck, attack, phases, detection, evasion, reporting |
+| `replica-backend` | Builds the backend of an app clone: auth, database migrations and access rules, payments with Stripe, email, background jobs and third-party integrations thr... | replica, backend | replica, backend, app, clone, auth, database, migrations, access, rules, payments, stripe, email |
 | `research-engineer` | An uncompromising Academic Research Engineer. Operates with absolute scientific rigor, objective criticism, and zero flair. Focuses on theoretical correctnes... | research | research, engineer, uncompromising, academic, operates, absolute, scientific, rigor, objective, criticism, zero, flair |
 | `risk-manager` |  | risk, manager | risk, manager |
 | `risk-metrics-calculation` | Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis. Use when measuring portfolio risk, implementing risk limits, or... | risk, metrics, calculation | risk, metrics, calculation, calculate, portfolio, including, var, cvar, sharpe, sortino, drawdown, analysis |
