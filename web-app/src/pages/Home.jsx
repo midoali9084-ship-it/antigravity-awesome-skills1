@@ -16,7 +16,7 @@ export function Home() {
     useEffect(() => {
         const fetchSkillsAndStars = async () => {
             try {
-                const res = await fetch('/skills.json');
+                const res = await fetch(`${import.meta.env.BASE_URL}skills.json`);
                 const data = await res.json();
 
                 setSkills(data);
@@ -136,9 +136,9 @@ export function Home() {
         <div className="space-y-8">
             <section className="relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
                 <picture>
-                    <source srcSet="/hero-banner.webp" type="image/webp" />
+                    <source srcSet={`${import.meta.env.BASE_URL}hero-banner.webp`} type="image/webp" />
                     <img
-                        src="/hero-banner.jpg"
+                        src={`${import.meta.env.BASE_URL}hero-banner.jpg`}
                         alt="Glowing cards floating upward in zero gravity, representing the Antigravity Skills catalog"
                         className="h-48 w-full object-cover sm:h-64 md:h-80"
                         width="1680"

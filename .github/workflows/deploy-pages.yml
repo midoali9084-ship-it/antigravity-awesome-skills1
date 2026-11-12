@@ -1,0 +1,70 @@
+name: Deploy Web App to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "web-app/**"
+      - "skills/**"
+      - "skills_index.json"
+      - "scripts/setup_web.js"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          cache: npm
+          cache-dependency-path: web-app/package-lock.json
+
+      - name: Copy skills index and SKILL.md files into web-app/public
+        run: node scripts/setup_web.js
+
+      - name: Install web-app dependencies
+        working-directory: web-app
+        run: npm ci
+
+      - name: Build web-app for project Pages URL
+        working-directory: web-app
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_SITE_URL: https://${{ github.repository_owner }}.github.io
+        run: |
+          npm run build
+          # SPA fallback so deep links like /skill/<id> resolve on Pages
+          cp dist/index.html dist/404.html
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web-app/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

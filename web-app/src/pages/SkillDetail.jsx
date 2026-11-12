@@ -20,7 +20,7 @@ export function SkillDetail() {
     useEffect(() => {
         const loadData = async () => {
             try {
-                const res = await fetch('/skills.json');
+                const res = await fetch(`${import.meta.env.BASE_URL}skills.json`);
                 const skills = await res.json();
                 const foundSkill = skills.find(s => s.id === id);
 
@@ -43,7 +43,7 @@ export function SkillDetail() {
                         ? foundSkill.path.replace('skills/', '')
                         : foundSkill.path;
 
-                    const mdRes = await fetch(`/skills/${cleanPath}/SKILL.md`);
+                    const mdRes = await fetch(`${import.meta.env.BASE_URL}skills/${cleanPath}/SKILL.md`);
                     if (!mdRes.ok) throw new Error('Skill file not found');
 
                     const text = await mdRes.text();
