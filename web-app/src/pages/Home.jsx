@@ -134,16 +134,29 @@ export function Home() {
 
     return (
         <div className="space-y-8">
-            <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between md:space-y-0">
-                <div>
-                    <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 mb-2">Explore Skills</h1>
-                    <p className="text-slate-500 dark:text-slate-400">
+            <section className="relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+                <picture>
+                    <source srcSet="/hero-banner.webp" type="image/webp" />
+                    <img
+                        src="/hero-banner.jpg"
+                        alt="Glowing cards floating upward in zero gravity, representing the Antigravity Skills catalog"
+                        className="h-48 w-full object-cover sm:h-64 md:h-80"
+                        width="1680"
+                        height="944"
+                        loading="eager"
+                        fetchPriority="high"
+                    />
+                </picture>
+                <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/40 to-transparent" />
+                <div className="absolute inset-0 flex flex-col justify-center px-6 sm:px-10">
+                    <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">Explore Skills</h1>
+                    <p className="mt-2 max-w-xl text-sm text-slate-200 sm:text-base">
                         {search || categoryFilter !== 'all'
                             ? `Showing ${filteredSkills.length} of ${skills.length} skills`
                             : `Discover ${skills.length} agentic capabilities for your AI assistant.`}
                     </p>
                 </div>
-            </div>
+            </section>
 
             <div className="flex flex-col space-y-4 md:flex-row md:items-center md:space-x-4 md:space-y-0 bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm sticky top-20 z-40">
                 <div className="relative flex-1">
