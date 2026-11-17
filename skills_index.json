@@ -540,6 +540,16 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "arabic-fidelity-translation",
+    "path": "skills/arabic-fidelity-translation",
+    "category": "uncategorized",
+    "name": "arabic-fidelity-translation",
+    "description": "Translate English long-form content into natural Modern Standard Arabic, preserving every piece of information and nuance \u2014 no omission or summary.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-11-17"
+  },
+  {
     "id": "architect-review",
     "path": "skills/architect-review",
     "category": "uncategorized",
@@ -2178,6 +2188,26 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "book-compression",
+    "path": "skills/book-compression",
+    "category": "uncategorized",
+    "name": "book-compression",
+    "description": "Compress books or long nonfiction by deleting redundancy and filler while keeping the author's wording, reasoning, nuance and evidence.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-11-17"
+  },
+  {
+    "id": "book-pdf-splitter",
+    "path": "skills/book-pdf-splitter",
+    "category": "uncategorized",
+    "name": "book-pdf-splitter",
+    "description": "Split a book PDF into smaller study-friendly PDFs along its chapters/sections, preserving every page exactly with no edits.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-11-17"
   },
   {
     "id": "box-automation",
