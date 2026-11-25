@@ -38,3 +38,6 @@ validation-baseline.json
 # Web app generated assets (from npm run app:setup)
 web-app/public/skills/
 web-app/public/skills.json
+
+# graphify generated knowledge graph (regenerate with: graphify update .)
+graphify-out/
